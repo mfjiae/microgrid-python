@@ -1,0 +1,9 @@
+{
+  "worst_evening_min_soc": 0.6484141137457897,
+  "worst_evening_date": "2023-07-03",
+  "nights_with_unserved": 0,
+  "nights": 362,
+  "continuous_island_unserved_kWh": 0.0,
+  "continuous_island_unserved_pct": 0.0,
+  "continuous_island_min_soc": 0.25017357934815987
+}

@@ -1,0 +1,49 @@
+{
+  "site": {
+    "name": "Nowra NSW",
+    "lat": -34.874,
+    "lon": 150.601,
+    "elevation_m": 23,
+    "pvgis_time_basis": "UTC converted to AEST (UTC+10), DST ignored"
+  },
+  "worst_windows": {
+    "worst_1d": {
+      "first_day": "2023-06-28",
+      "last_day": "2023-06-28",
+      "yield_kWh_per_kWp": 0.387
+    },
+    "worst_3d": {
+      "first_day": "2023-08-13",
+      "last_day": "2023-08-15",
+      "yield_kWh_per_kWp": 5.368
+    },
+    "worst_7d": {
+      "first_day": "2023-06-02",
+      "last_day": "2023-06-08",
+      "yield_kWh_per_kWp": 16.915
+    }
+  },
+  "design_day": "2023-06-28",
+  "design_day_yield_kWh_per_kWp": 0.387,
+  "load_basis": "Tier_1_Critical_kW",
+  "assumptions": {
+    "eta_roundtrip": 0.9,
+    "depth_of_discharge": 0.9,
+    "safety_margin": 1.15,
+    "island_start_h": 17.0,
+    "module_Wp": 440
+  },
+  "design": {
+    "rule": "PV decision 30 kWp; battery = max over observed worst 1/3/7-day windows; x1.15 margin",
+    "PV_kWp": 30.0,
+    "Battery_kWh": 110.0,
+    "governing_window": "worst_3d",
+    "PV_kWp_installed": 35.2,
+    "n_modules": 80,
+    "Battery_kWh_installed": 130.0,
+    "PV_inverter_kVA": 30.0,
+    "BESS_PCS_kVA": 30.0,
+    "autonomy_h_zero_PV": 44.4,
+    "stress_3x_worst_day_kWh_at_design_PV": 220.0
+  }
+}

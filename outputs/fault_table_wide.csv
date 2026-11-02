@@ -1,0 +1,6 @@
+bus,3ph_max_grid_day_kA,3ph_max_grid_night_kA,3ph_max_island_day_kA,3ph_max_island_night_kA,1ph_min_grid_day_kA,1ph_min_grid_night_kA,1ph_min_island_day_kA,1ph_min_island_night_kA,I_load_peak_A
+PCC,3.7958,3.7438,,,3.0064,3.0064,,,16.6
+FS,3.7958,3.7438,0.1039,0.052,3.0064,3.0064,0.0476,0.0476,16.6
+WP,2.1054,2.0766,0.1033,0.0516,0.9817,0.9817,0.0469,0.0469,15.4
+HC,1.2523,1.2351,0.1024,0.0512,0.49,0.49,0.0459,0.0459,6.2
+TT,0.8219,0.8106,0.1013,0.0507,0.3,0.3,0.0446,0.0446,2.6

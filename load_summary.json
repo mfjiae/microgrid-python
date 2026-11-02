@@ -1,0 +1,21 @@
+{
+  "peak_cluster_kW": 10.426,
+  "tier1_base_kW": 2.5,
+  "tier1_daily_kWh": 60.0,
+  "tier1_overnight_18_06_kWh": 30.0,
+  "cluster_daily_kWh": 104.744,
+  "tier2_daily_kWh": 44.744,
+  "peak_after_diversity_kW": 10.192,
+  "peak_kW_per_building": {
+    "Fire_Station": 0.796,
+    "Water_Pump": 5.512,
+    "Health_Clinic": 2.338,
+    "Telecom_Tower": 1.78
+  },
+  "connected_kW_per_building": {
+    "Fire_Station": 1.26,
+    "Water_Pump": 5.512,
+    "Health_Clinic": 3.088,
+    "Telecom_Tower": 2.2
+  }
+}

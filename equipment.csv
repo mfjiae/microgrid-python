@@ -1,0 +1,11 @@
+Building,Equipment_Name,Rated_Power_W,Quantity,Start_Hour,End_Hour,Duty_Cycle,Critical_Tier,Datasheet_Source
+Fire_Station,Comms_Radio_Dispatch_Console,400,1,0.0,24.0,1.00,Tier_1,Motorola Solutions ASTRO 25 GTR 8000 Base Station Datasheet (VHF 405W max)
+Water_Pump,SCADA_Telemetry_Module,12,1,0.0,24.0,1.00,Tier_1,Schneider Electric SCADAPack 350/357 Datasheet (Max 12W at 24Vdc with Vloop fully loaded)
+Health_Clinic,Medical_Vaccine_Fridge,24,2,0.0,24.0,1.00,Tier_1,B Medical Systems TCW40SDD Datasheet (24W continuous equiv from 0.576 kWh/day)
+Telecom_Tower,DC_Rectifier_Plant,1500,1,0.0,24.0,1.00,Tier_1,Vertiv NetSure 5100 Series (Spec 582137200) 48V DC Plant (1.5kW nominal load)
+Telecom_Tower,Shelter_HVAC_Cooling,700,1,10.0,18.0,0.40,Tier_2,Mitsubishi Heavy Ind SRK20ZSX-W Technical Manual (700W peak cooling draw at 40-50C)
+Health_Clinic,Emergency_Lighting_IT_Records,540,1,0.0,24.0,1.00,Tier_1,Dell PowerEdge R250 (450W) + Stanilite ECOEXIT (20x units at 4.5W = 90W)
+Health_Clinic,HVAC_Lighting,2500,1,8.0,17.0,0.70,Tier_2,Daikin Cora 2.0kW AC Input + Philips GreenPerform RC160V (15x 30W LED panels)
+Fire_Station,Roller_Door_Motors,150,2,6.0,18.0,0.014,Tier_2,B&D ATA Toro GDO-10 Commercial Opener (150W motor pulling force)
+Fire_Station,Lighting,140,4,6.0,18.0,0.70,Tier_2,Cree Lighting CPY250 Version B (Input Designator E: 140W at 240V)
+Water_Pump,Submersible_Pump_Motor,5500,1,10.0,14.0,1.00,Tier_2,Grundfos SP 9-23 w/ MS4000 5.5kW Submersible Motor Spec

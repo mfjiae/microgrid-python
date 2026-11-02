@@ -1,0 +1,5 @@
+relay,location,I_load_max_A,CT_min_from_load_A,I_fault_max_A,ALF_effective,CT_ratio,CT_class,fault_max_over_Ipn,ALF_ok,I_fault_min_A,I_fault_min_basis,min_fault_secondary_A,VT,note
+R_PCC,PCC interface breaker,43.3,54.1,3857,60.0,75/1,5P20,51.4,True,2510.0,grid min (PCC open in island),33.467,400/110 V 0.5/3P,ratio raised above load requirement to keep ALF
+R1,Feeder head FS->WP,15.4,19.2,3857,60.0,75/1,5P20,51.4,True,40.9,"island night min, end of zone",0.545,400/110 V 0.5/3P,ratio raised above load requirement to keep ALF
+R2,WP->HC,6.2,7.7,2105,60.0,40/1,5P20,52.6,True,40.5,"island night min, end of zone",1.012,400/110 V 0.5/3P,ratio raised above load requirement to keep ALF
+R3,HC->TT,2.6,3.3,1252,60.0,25/1,5P20,50.1,True,40.0,"island night min, end of zone",1.6,400/110 V 0.5/3P,ratio raised above load requirement to keep ALF
